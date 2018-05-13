@@ -4,20 +4,90 @@
         <title> My first site</title>
       </head>
     <!-- this is a comment durrr-->
+    <!-- use span to grouping stuff in line and use div to group block stuff-->
 
     <body>
 
-          <h1> BLAHHHHHH</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vestibulum et ante in magna ultricies ultricies ac a ligula. Nam viverra tristique faucibus. 
-            Vestibulum in lacinia lorem. Fusce volutpat arcu sed facilisis auctor. Cras maximus rutrum posuere.
-             Sed lacinia egestas augue non auctor. Sed at pellentesque lorem. Duis eu est id ante rutrum dictum. 
+          <h1> H1 heading is this big</h1>
+          <h2> H2 is this big</h2>
+          <h6> H6 is tiny</h6>
+        <div>
+        <p> <i>Lorem ipsum is italicized</i> dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum et <strong>this writing is strong </strong> ac a ligula. Nam viverra tristique faucibus. 
+            Vestibulum in lacinia lorem. <em>this is emphasized</em> arcu sed facilisis auctor. Cras maximus rutrum posuere.
+             Sed lacinia <b>this is bolded </b> non auctor. Sed at pellentesque lorem. 
+        </p>
+        <p>
              Morbi interdum turpis eget dui aliquet, ac consequat mauris viverra. Suspendisse placerat magna 
              fermentum augue fermentum ultricies et a arcu. Phasellus aliquet ligula at placerat pharetra. 
              Aenean eget euismod risus. Mauris mi sem, hendrerit non lectus at, iaculis pretium metus. 
              Praesent eu sem dapibus, imperdiet nisl condimentum, sollicitudin mi.
-
         </p>
+            <ol>
+                <li>Red</li>
+                <li> Green </li>
+                <li> Blue </li>
+                    <ul>
+                        <li>Indigo</li>
+                        <li>Aqua</li>
+                    </ul>
+                        
+            </ol>
+            <ul>
+                <li>Red</li>
+                <li> Green </li>
+                <li> Blue </li>
+            </ul>
+
+            <!-- Attributes: a key value pair: property and value
+            <tag>name = "value"></tag> 
+            <img src ="corgi.png">-->
+            <img src ="jack1.jpg"><br><br>
+            <a href = "http://www.google.com"> I am link to google</a>
+                <br>
+                <br>
+            <table border = "1">
+                <tr> <th>Name</th>
+                    <th> Age</th>
+                </tr>
+                <tr>
+                    <td> stuff</td>
+                    <td>stuff2</td>
+                </tr>
+                <tr>
+                    <td>stuff3</td>
+                    <td>stuff4</td>
+                </tr></table>
+        </div>
+            <br>
+        <div>
+            <h1>SUBMIT FORM</h1>
+            <!--form tags-->
+            <!-- action - where the form sends data 
+                method - what HTTP method request it uses(get/post)-->
+            <form action="/specifies_where_to_send_data" method="post">
+            <!-- post - data posted to a server-->
+            <!-- get request - getting data back form a DB etc -->
+            <input type = "text" placeholder="username">
+            <input type = "text" placeholder="password">
+            <br><br>
+            <input type = "email" placeholder="email">
+            <br><br>
+            Select a color:
+            <input type = "color" >
+            <br>
+            Student?
+            <input type = "radio">
+            <br><br>
+            <button>Submit</button>
+            </form>
+
+            <br><br><br>
+
+
+        </div>
+            
+
     </body>
 </html>
 
