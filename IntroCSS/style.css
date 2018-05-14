@@ -18,6 +18,8 @@ h1{
 li{
     color:green;
 }
+/* This is a ID selector, it is used for:
+- Selecting an element with a give ID, only one per page!*/
 
 #special{
     color:brown;
@@ -27,8 +29,17 @@ h4 {
     background: rgb(111,44,33);
 }
 
-
-
 body{
     background: pink;
+}
+
+/* This is a class selector, it is used for:
+- Selecting all elemnts with a given class*/
+
+.highlight {
+    background: yellow;
+}
+
+.completed {
+    text-decoration: line-through;
 }
