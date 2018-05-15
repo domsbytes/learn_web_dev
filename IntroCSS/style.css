@@ -43,3 +43,28 @@ body{
 .completed {
     text-decoration: line-through;
 }
+
+/* There is at least 30 CSS selectors that are useful to know. Others useful ones might be: */
+
+/*-Star- selects everything on the page 
+* {
+    border: .5px solid black;
+}*/
+
+/*-Descendant Selector - selects all the children of a parent tag*/
+li a {
+    color: burlywood;
+}
+/*-Adjacent Selector - selects sibling of a child*/
+h4 + ul {
+    border: 5px solid rgb(111,44,33);
+}
+/*-Attribute Selector - selects all data of a particular source
+input[type="text"]{
+    background: green;
+}*/
+
+/*-nth of type - specific list selection, such as every 5th DIV etc*/
+ul:nth-of-type(2){
+    background:purple;
+}
