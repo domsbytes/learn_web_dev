@@ -1,0 +1,15 @@
+ul{
+    color:purple;
+}
+
+/* INHERITANCE:
+If you specify a parent element to be a certain 
+property then its children will inherit the property as well
+ex) LI style will be inherited from UL style */
+
+/*SPECIFICITY:
+The more specific element style will win over any 
+general overall style such as all (*) elements etc.
+ex) class will trump tag style
+ex) ID will trump class and tag style 
+ID is the most specific, while type selector is the least specific*/
