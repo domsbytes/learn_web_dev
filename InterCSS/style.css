@@ -5,7 +5,7 @@ text-align - how the text of a given elment is alinged;
 etc you can center something with this
 text-decoration - used to give underline effect or line-thru or overline*/
 p{
-    font-family: "Arial";
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     /* there is also a 100-800 range of weight ( every hundred)*/
     line-height: 1.5;
