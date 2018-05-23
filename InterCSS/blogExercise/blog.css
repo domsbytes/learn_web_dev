@@ -33,4 +33,6 @@ h1{
     color: #3498db;
     letter-spacing: .2rem;
 }
-
+.post{
+    margin: 10px;
+}
